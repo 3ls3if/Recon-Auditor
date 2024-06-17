@@ -2062,7 +2062,7 @@ def main():
 
         banner()
         print("\n[*] Choose an option:\n")
-        print("[1] Set Target IP/Domain")
+        print("[1] Set Target IP/Domain (example.com)")
         print("[2] Passive Recon")
         print("[3] Active Recon")
         print("[4] Security Audit")
