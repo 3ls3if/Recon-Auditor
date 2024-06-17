@@ -1224,7 +1224,7 @@ def security_audit_module():
 
                 banner()
                 display_security_audit_options()
-                choice = input("\n[+] Enter your security audit choice (1-): ").strip()
+                choice = input("\n[+] Enter your security audit choice (1-3): ").strip()
 
                 if choice == '1':
                     analyze_and_write_security_audit_report(target if ip_address else f"http://{target}")
@@ -1236,7 +1236,7 @@ def security_audit_module():
                     break
 
                 else:
-                    print("\n[-] Invalid choice. Please enter a number between 1 and .\n")
+                    print("\n[-] Invalid choice. Please enter a number between 1 and 3.\n")
                 
                 cont = input("\n[?] Do you want to perform another security audit? (yes/no): ").strip().lower()
                 if cont != 'yes':
