@@ -10,7 +10,7 @@
 
 ## Usage
 
-#### clone the Repository
+#### Clone the Repository
 
 ```
 git clone https://github.com/3ls3if/Recon-Auditor.git
